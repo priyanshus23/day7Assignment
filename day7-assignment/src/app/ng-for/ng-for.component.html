@@ -1,0 +1,21 @@
+<p>ng-for works!</p>
+<table border="2px">
+<thead>
+<tr>
+<th>
+id
+</th>
+<th>
+name
+</th>
+<th>salary</th>
+<th>department</th>
+</tr>
+</thead>
+<tr *ngFor="let p of employee">
+<td>{{p.id}}</td>
+<td>{{p.name}}</td>
+<td>{{p.salary}}</td>
+<td>{{p.department}}</td>
+</tr>
+</table>
